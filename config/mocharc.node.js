@@ -20,6 +20,9 @@
  * - https://mochajs.org/#usage for more information on usage of mocha flags.
  * - https://github.com/karma-runner/karma-mocha for more information on all mocha flags which the
  *   karma runner supports.
+ *
+ * NOTE: Mocha configuration for the browser test is defined in karma.base.js directly because karma-mocha
+ * doesn't load configuration file properly
  */
 
 const config = {

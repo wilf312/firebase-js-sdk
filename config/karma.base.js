@@ -106,7 +106,8 @@ const config = {
 
   client: {
     mocha: {
-      opts: `${__dirname}/mocha.browser.opts`
+      timeout: 20000,
+      retries: 3
     },
 
     // Pass through --grep option to filter the tests that run.
