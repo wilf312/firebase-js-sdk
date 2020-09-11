@@ -38,6 +38,7 @@ import {
 // Note these debug options are not part of a documented, supported API and can change at any time.
 // Consolidates debug options for easier discovery.
 // Uses transient variables on window to avoid lingering state causing panic.
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 declare global {
   interface Window {
     FIREBASE_REMOTE_CONFIG_URL_BASE: string;

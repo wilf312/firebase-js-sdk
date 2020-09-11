@@ -40,6 +40,7 @@ import {
 } from '@firebase/util';
 import { name, version } from './package.json';
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 declare global {
   interface Window {
     [key: string]: unknown;
